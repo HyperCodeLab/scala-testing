@@ -4,8 +4,7 @@ ThisBuild / scalaVersion := "2.12.12"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "scala-testing",
-    idePackagePrefix := Some("com.hypercodelab")
+    name := "scala-testing"
   )
 
 
